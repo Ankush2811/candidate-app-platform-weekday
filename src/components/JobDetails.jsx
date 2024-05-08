@@ -3,7 +3,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { useDispatch, useSelector } from "react-redux";
 import { getCandidateDetails } from "../reduxStore/CandidateSlice";
 import StatusCode from "../utils/StatusCode";
-import Filter from "./Filter";
+import Filter from "./Filter.jsx";
 import JobCard from "./jobCard.jsx";
 import Grid from "@mui/material/Grid";
 import Dialog from "@mui/material/Dialog";
